@@ -9,7 +9,7 @@ export function AboutPage() {
   const { data } = useQuery({ queryKey: ['site-config'], queryFn: publicApi.getSiteConfig });
 
   useEffect(() => {
-    document.title = '关于 | MyWeb Blog';
+    document.title = '关于我的博客 | MyWeb Blog';
   }, []);
 
   return (
