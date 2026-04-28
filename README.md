@@ -1,6 +1,6 @@
 # MyWeb Blog
 
-一个基于 React + Spring Boot + MySQL 的个人博客项目，包含公开博客前台和后台管理台。
+一个基于 React + Spring Boot + MySQL 的个人博客项目，包含公开博客前台和后台管理台，欢迎查看。
 
 ## 项目结构
 
