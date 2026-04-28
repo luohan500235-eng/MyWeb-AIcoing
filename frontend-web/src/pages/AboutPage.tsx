@@ -9,12 +9,12 @@ export function AboutPage() {
   const { data } = useQuery({ queryKey: ['site-config'], queryFn: publicApi.getSiteConfig });
 
   useEffect(() => {
-    document.title = '关于哇哇哇dada | MyWeb Blog';
+    document.title = 'dada | MyWeb Blog';
   }, []);
 
   return (
     <section className="markdown-panel">
-      <h1>关于</h1>
+      <h1>关于页面</h1>
       <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeHighlight]}>
         {data?.aboutMd ?? '# 关于我'}
       </ReactMarkdown>
